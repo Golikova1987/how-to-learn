@@ -118,7 +118,6 @@ margin: 0 auto;
 }
 
 .section__title {
-  margin: 0;
   padding: 0;
   width: 60%;
   line-height: 1.15;
@@ -129,7 +128,6 @@ margin: 0 auto;
 }
 
 .section__subtitle {
-  margin: 0;
   padding: 0;
   width: 60%;
   line-height: 34px;
@@ -232,7 +230,6 @@ margin: 0 auto;
 }
 
 .section__title_theme_dark {
-  margin: 0;
   padding: 0;
   line-height: 1.15;
   font-size: 60px;
@@ -243,7 +240,6 @@ margin: 0 auto;
 }
 
 .section__subtitle_theme_dark {
-  margin: 0;
   padding: 0;
   line-height: 34px;
   font-size: 24px;
