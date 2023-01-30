@@ -7,8 +7,7 @@
   <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
 </head>
-<body>
-  <div class="page">
+<body class="page">
     <header class="header">
       <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип">
       <h1 class="header__title">Научиться учиться</h1>
@@ -30,7 +29,7 @@
     </section>
     <section class="techniques">
       <h2 class="section-title">Техники обучения</h2>
-      <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
+      <p class="section-subtitle">Пять практик от Барбары Оакли</p>
       <ul class="cards">
         <li class="cards__item">
           <img class="cards__image" src="./images/cards-attention.png" alt="изображение книги">
@@ -61,13 +60,13 @@
     </section>
     <section class="video">
       <h2 class="section-title">Видео нa TED</h2>
-      <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
-      <div class="video__iframes">
-        <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
-        <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"></iframe>
-      </div>
+      <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
+      <ul class="video__iframes">
+        <li><iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe></li>
+        <li><iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"></iframe></li>
+      </ul>
     </section>
-    <section class="oakley">
+    <section class="oakley" aria-label="История">
       <article class="two-columns">
         <h2 class="two-columns__brief">История Барбары Оакли.</h2>
         <div class="two-columns__main-text">
@@ -82,7 +81,7 @@
     </section>
     <section class="digits">
       <h2 class="section-title">Цифры и факты</h2>
-      <h3 class="section-subtitle">Про учёбу и мозг</h3>
+      <p class="section-subtitle">Про учёбу и мозг</p>
       <ul class="table">
         <li class="table__cell">
           <h4 class="table__heading">86 миллиардов</h4>
@@ -125,10 +124,10 @@
     <section class="khan">
       <div class="khan__container">
         <h2 class="khan__author">Салман Хан</h2>
-        <h3 class="khan__title">Весь мир — школа</h3>
+        <blockquote class="khan__title">Весь мир — школа</blockquote>
         <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
         <h3 class="khan__quote-author">Джордж Лукас</h3>
-        <h4 class="khan__quote-author-subline">Кинорежиссер, продюсер</h4>
+        <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
         <div class="khan__book-container">
           <img class="khan__book-pic" src="./images/khan-book.jpg" alt="Обложка книги Весь мир-школа">
           <a class="khan__buy-link" href="#">Купить книгу →</a>
@@ -137,7 +136,7 @@
     </section>
     <section class="kaufman">
       <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
-      <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
+      <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
       <ul class="table table_theme_dark">
         <li class="table__cell table__cell_theme_dark">
           <h4 class="table__heading table__heading_theme_dark">1</h4>
@@ -184,7 +183,7 @@
     </section>
     <section class="resources">
       <h2 class="section-title">Полезные ресурсы</h2>
-      <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
+      <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
       <ul class="resources__logo-zone">
         <li><a class="resources__link" href="#"><img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="логотип arzamas"></a></li>
         <li><a class="resources__link" href="#"><img class="resources__logo" src="./images/logo/resources-n1.svg" alt="логотип N+1"></a></li>
@@ -195,10 +194,10 @@
   </main>
   <footer class="footer">
     <div class="footer__columns">
-      <div class="footer__column footer__column_content_copyright">
-        <a href="#"><img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="логотип Яндекс Практикум"></a>
-        <p class="footer__author">&copy; Татьяна Голикова</p>
-      </div>
+      <ul class="footer__column footer__column_content_copyright">
+        <li><a href="#"><img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="логотип Яндекс Практикум"></a></li>
+        <li><p class="footer__author">&copy; Татьяна Голикова</p></li>
+      </ul>
       <nav class="footer__column footer__column_content_info">
         <h2 class="footer__column-heading">О Практикуме</h2>
         <ul class="footer__column-links">
@@ -217,6 +216,5 @@
       </nav>
     </div>
   </footer>
-  </div>
 </body>
 </html>
